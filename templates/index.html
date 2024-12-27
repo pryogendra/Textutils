@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Templates</title>
+</head>
+<body>
+    <form method="post" action="/output">{% csrf_token %}
+        <h2>Form</h2>
+        Name :<input type="text" name="t1"><br><br>
+        Email :<input type="email" name="t2"><br><br>
+        Location :<input type="text" name="t3"><br><br>
+        Mobile No :<input type="number" name="t4"><br><br>
+        Select Option :<br>
+        <input type="radio" name="check" value="upper">Upper Case<br>
+        <input type="radio" name="check" value="lower">Lower Case<br><br>
+        <!--input type="radio" name="check" value="charcount">Character count<br><br-->
+        <button type="submit">SUBMIT</button>
+    </form>
+</body>
+</html>

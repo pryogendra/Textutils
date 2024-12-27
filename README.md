@@ -1,2 +1,2 @@
 # Textutils
-Basic textutils using djnago 
+Basic textutils using django 
